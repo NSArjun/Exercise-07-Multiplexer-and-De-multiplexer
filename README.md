@@ -47,42 +47,47 @@ If the control input changes to AB = 10, then all the gates are restricted excep
  
  
 ### Procedure
-/* write all the steps invloved */
+1.Start the module using module projname(). 
+2.Declare the inputs and outputs along with the selectlines according to the multiplexer and demultiplexer.
+3.Use wire to assign intermediate outputs.
+4.Use and,or and not gates to get the desired output.
+5.End the module. 6.Generate RTL realizationand timing diagrams.
 
 
 
 ### PROGRAM 
-/*
+
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
+Developed by:ARJUN N S
+RegisterNumber: 212223230020 
 
+## CODE:
+### MULTIPLEXER:
+![MUX CODE](https://github.com/NSArjun/Exercise-07-Multiplexer-and-De-multiplexer/assets/148233801/33eaad71-b091-42f7-ab60-e682d18a8bfb)
 
-
-
-
+### DEMULTIPLEXER:
+![DEMUX CODE](https://github.com/NSArjun/Exercise-07-Multiplexer-and-De-multiplexer/assets/148233801/55a42eb5-b783-467d-acc8-256289e91880)
 
 ### RTL LOGIC  
+### MULTIPLEXER:
+![MUX LOGIC](https://github.com/NSArjun/Exercise-07-Multiplexer-and-De-multiplexer/assets/148233801/77e3ff66-d398-4fbd-9a8e-6c752d99348c)
 
-
-
-
-
-
-
+### DEMULTIPLEXER:
+![DEMUX LOGIC](https://github.com/NSArjun/Exercise-07-Multiplexer-and-De-multiplexer/assets/148233801/d38295db-5ee3-4056-974b-b3b8af2b8047)
 
 ### TIMING DIGRAMS  
+### MULTIPLEXER:
+![MUX TIME](https://github.com/NSArjun/Exercise-07-Multiplexer-and-De-multiplexer/assets/148233801/d5f7b7bd-0320-4501-a151-796c42bfe38e)
 
-
-
-
+### DEMULTIPLEXER:
+![DEMUX TIME](https://github.com/NSArjun/Exercise-07-Multiplexer-and-De-multiplexer/assets/148233801/14aa95a7-cb3f-44bc-a349-2f22f5719b68)
 
 ### TRUTH TABLE 
+### MULTIPLEXER:
+![MUX TT](https://github.com/NSArjun/Exercise-07-Multiplexer-and-De-multiplexer/assets/148233801/c79dd245-041f-4532-b0a2-aef78e4813ba)
 
+### DEMULTIPLEXER:
+![DEMUX TT](https://github.com/NSArjun/Exercise-07-Multiplexer-and-De-multiplexer/assets/148233801/9d03c39f-600b-4191-a75f-a520a7fc9e8c)
 
-
-
-
-
-### RESULTS 
+### RESULTS:
+Thus the program to design multiplexer and de-multiplexer is successfully completed.
